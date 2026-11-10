@@ -1,0 +1,3402 @@
+[
+ {
+  "experiment": "routing",
+  "name": "rs_random|small_s101|adonis|s7",
+  "task": {
+   "suite": "random",
+   "inst": "small_s101",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.23175537747683791,
+   "n_swaps": 2,
+   "cost_raw": 0.23175537747683791,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_random|ghz_5q|adonis|s8",
+  "task": {
+   "suite": "structured",
+   "inst": "ghz_5q",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 8,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.15692613177494436,
+   "n_swaps": 1,
+   "cost_raw": 0.15692613177494436,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_random|qft_adder_2b|adonis|s18",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qft_adder_2b",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 18,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.26254462106002496,
+   "n_swaps": 1,
+   "cost_raw": 0.2629816675419323,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_random|tiny_s108|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s108",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 0,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.11286715164122284,
+   "n_swaps": 1,
+   "cost_raw": 0.11286715164122284,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_random|heavy_s102|adonis|s14",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s102",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 14,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.4865943731647443,
+   "n_swaps": 3,
+   "cost_raw": 0.5224027763138664,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_random|qv_5q_s5|adonis|s2",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s5",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 2,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.9718534082541913,
+   "n_swaps": 5,
+   "cost_raw": 1.1480344582267907,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|vqe_su2_full_r6|adonis|s10",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "vqe_su2_full_r6",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 10,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.4586819415919994,
+   "n_swaps": 14,
+   "cost_raw": 2.4586819415919994,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|qv_5q_s9|adonis|s6",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s9",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 6,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.8847877344790078,
+   "n_swaps": 3,
+   "cost_raw": 0.9014538870489692,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|heavy_s106|adonis|s2",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s106",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 2,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5528411983636208,
+   "n_swaps": 4,
+   "cost_raw": 0.5930369276973261,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|tiny_0|adonis|s11",
+  "task": {
+   "suite": "fixed",
+   "inst": "tiny_0",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 11,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.12377252474291237,
+   "n_swaps": 1,
+   "cost_raw": 0.12377252474291237,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|tiny_s103|adonis|s10",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s103",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 10,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.09596884641927757,
+   "n_swaps": 1,
+   "cost_raw": 0.09596884641927757,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "rs_sabre|tiny_s109|adonis|s12",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s109",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 12,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.018088446696659596,
+   "n_swaps": 0,
+   "cost_raw": 0.018088446696659596,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|dense_s105|adonis|s16",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s105",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 16,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.6406116253117453,
+   "n_swaps": 12,
+   "cost_raw": 1.6406116253117453,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|tiny_s107|adonis|s1",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s107",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 1,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.09540878260881705,
+   "n_swaps": 1,
+   "cost_raw": 0.09540878260881705,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|heisenberg_ring_r2|adonis|s0",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "heisenberg_ring_r2",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 0,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.786711566384392,
+   "n_swaps": 7,
+   "cost_raw": 1.7872116539023126,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|small_0|adonis|s7",
+  "task": {
+   "suite": "fixed",
+   "inst": "small_0",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.06283563962097546,
+   "n_swaps": 0,
+   "cost_raw": 0.06283563962097546,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|vqe_su2_full_r6|adonis|s8",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "vqe_su2_full_r6",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 8,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.646827420245808,
+   "n_swaps": 17,
+   "cost_raw": 2.646907422645891,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|hard_16r|adonis|s7",
+  "task": {
+   "suite": "adversarial",
+   "inst": "hard_16r",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 4.588773173217045,
+   "n_swaps": 40,
+   "cost_raw": 4.588773173217045,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|heavy_s100|adonis|s1",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s100",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 1,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5921298756148711,
+   "n_swaps": 3,
+   "cost_raw": 0.5921298756148711,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|qv_5q_s0|adonis|s7",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s0",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.8785491301107334,
+   "n_swaps": 3,
+   "cost_raw": 0.8785491301107334,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|heavy_s108|adonis|s9",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s108",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 9,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5873911809077002,
+   "n_swaps": 4,
+   "cost_raw": 0.5873911809077002,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|qaoa_g0_p1|adonis|s4",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g0_p1",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 4,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.45294095000001794,
+   "n_swaps": 2,
+   "cost_raw": 0.45294095000001794,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|qaoa_g0_p2|adonis|s19",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g0_p2",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 19,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.9078248540980219,
+   "n_swaps": 4,
+   "cost_raw": 0.9079048564981047,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_sabre|qaoa_g2_p2|adonis|s19",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g2_p2",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 19,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6286942759468481,
+   "n_swaps": 3,
+   "cost_raw": 0.6286942759468481,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|tiny_s102|adonis|s12",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s102",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 12,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.06644939894934429,
+   "n_swaps": 0,
+   "cost_raw": 0.06644939894934429,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|bv_5q|adonis|s14",
+  "task": {
+   "suite": "structured",
+   "inst": "bv_5q",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 14,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.07091477622934111,
+   "n_swaps": 0,
+   "cost_raw": 0.07091477622934111,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|tiny_s105|adonis|s7",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s105",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.04323443552288354,
+   "n_swaps": 0,
+   "cost_raw": 0.04323443552288354,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|dense_s106|adonis|s16",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s106",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 16,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8178311894136672,
+   "n_swaps": 13,
+   "cost_raw": 1.8178311894136672,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|dense_s105|adonis|s18",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s105",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 18,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.590319624571743,
+   "n_swaps": 11,
+   "cost_raw": 1.5908197120896637,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|ising_full_r2|adonis|s13",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "ising_full_r2",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 13,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.5615667859851712,
+   "n_swaps": 9,
+   "cost_raw": 1.5748357884595936,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|small_s105|adonis|s17",
+  "task": {
+   "suite": "random",
+   "inst": "small_s105",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 17,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.04869098722338666,
+   "n_swaps": 0,
+   "cost_raw": 0.04869098722338666,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|hard_12r|adonis|s5",
+  "task": {
+   "suite": "adversarial",
+   "inst": "hard_12r",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 5,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 3.4219911890652517,
+   "n_swaps": 29,
+   "cost_raw": 3.4219911890652517,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|medium_1|adonis|s1",
+  "task": {
+   "suite": "fixed",
+   "inst": "medium_1",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 1,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.3348006428598496,
+   "n_swaps": 3,
+   "cost_raw": 0.3348006428598496,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|qaoa_g2_p1|adonis|s9",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g2_p1",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 9,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.2958538183032721,
+   "n_swaps": 1,
+   "cost_raw": 0.2958538183032721,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|qaoa_g1_p2|adonis|s11",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g1_p2",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 11,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.8490979238868678,
+   "n_swaps": 5,
+   "cost_raw": 0.8490979238868678,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_sabre|heisenberg_ring_r4|adonis|s8",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "heisenberg_ring_r4",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 8,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 3.533922082521469,
+   "n_swaps": 9,
+   "cost_raw": 3.533922082521469,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|swaps|qv_5q_s5|adonis|s9",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s5",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 9,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.0822975891334643,
+   "n_swaps": 4,
+   "cost_raw": 1.0822975891334643,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|swaps|tiny_s105|adonis|s11",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s105",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 11,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.06025570997832573,
+   "n_swaps": 0,
+   "cost_raw": 0.06025570997832573,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "tabu_random|swaps|qv_5q_s0|adonis|s13",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s0",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 13,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.0632534452060867,
+   "n_swaps": 4,
+   "cost_raw": 1.0632534452060867,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|swaps|qft_adder_2b|adonis|s2",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qft_adder_2b",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 2,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.31514071850569714,
+   "n_swaps": 1,
+   "cost_raw": 0.31514071850569714,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|swaps|small_s100|adonis|s16",
+  "task": {
+   "suite": "random",
+   "inst": "small_s100",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 16,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.32496143168529956,
+   "n_swaps": 2,
+   "cost_raw": 0.32496143168529956,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "ga_random|swaps|qv_5q_s6|adonis|s2",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s6",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 2,
+   "objective": "swaps",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.1202591297195421,
+   "n_swaps": 5,
+   "cost_raw": 1.1202591297195421,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp|hard_16r|adonis|s0",
+  "task": {
+   "suite": "adversarial",
+   "inst": "hard_16r",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 4.335357047769431,
+   "n_swaps": 36
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp|qft_adder_2b|adonis|s0",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qft_adder_2b",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.26254462106002496,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp|qaoa_k5_p3|adonis|s0",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_k5_p3",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.9615378279850264,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp|qaoa_g2_p2|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g2_p2",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6286942759468481,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp|dense_s109|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s109",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.5925649994034674,
+   "n_swaps": 11
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_lex|heavy_s107|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s107",
+   "model": "adonis",
+   "method": "dp_lex",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.4952159773543575,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_lex|aqft_5q|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "aqft_5q",
+   "model": "adonis",
+   "method": "dp_lex",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5241572065566097,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_lex|medium_s100|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "medium_s100",
+   "model": "adonis",
+   "method": "dp_lex",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.362088312276466,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_lex|dense_s100|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s100",
+   "model": "adonis",
+   "method": "dp_lex",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.9222802483075894,
+   "n_swaps": 13
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_lex|qaoa_g0_p2|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g0_p2",
+   "model": "adonis",
+   "method": "dp_lex",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.9078248540980219,
+   "n_swaps": 4
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_blind|dense_s108|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s108",
+   "model": "adonis",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8802446727833153,
+   "n_swaps": 13
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_blind|ghz_5q|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "ghz_5q",
+   "model": "adonis",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.16328534649334497,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_blind|qft_5q|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "qft_5q",
+   "model": "adonis",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.7221424454739446,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_blind|queko_d32|adonis|s0",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "queko_d32",
+   "model": "adonis",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.3965599268991714,
+   "n_swaps": 0
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "dp_blind|small_1|adonis|s0",
+  "task": {
+   "suite": "fixed",
+   "inst": "small_1",
+   "model": "adonis",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.15788955210654237,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "sabre|heavy_s102|adonis|s19",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s102",
+   "model": "adonis",
+   "method": "sabre",
+   "seed": 19,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6362084207182741,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "sabre|small_s103|adonis|s8",
+  "task": {
+   "suite": "random",
+   "inst": "small_s103",
+   "model": "adonis",
+   "method": "sabre",
+   "seed": 8,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.09031816178709078,
+   "n_swaps": 0
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "sabre|hard_2r|adonis|s0",
+  "task": {
+   "suite": "fixed",
+   "inst": "hard_2r",
+   "model": "adonis",
+   "method": "sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5403488925592241,
+   "n_swaps": 4
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "sabre|tiny_s108|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s108",
+   "model": "adonis",
+   "method": "sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.14417273550020882,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3|qv_5q_s6|adonis|s18",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s6",
+   "model": "adonis",
+   "method": "qiskit_l3",
+   "seed": 18,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.0202060734636227,
+   "n_swaps": 3
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3|qaoa_k5_p3|adonis|s5",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_k5_p3",
+   "model": "adonis",
+   "method": "qiskit_l3",
+   "seed": 5,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.0503289496297303,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3|small_s106|adonis|s3",
+  "task": {
+   "suite": "random",
+   "inst": "small_s106",
+   "model": "adonis",
+   "method": "qiskit_l3",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.18516793601880602,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3|qaoa_ring_p6|adonis|s14",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_ring_p6",
+   "model": "adonis",
+   "method": "qiskit_l3",
+   "seed": 14,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.5348961974055135,
+   "n_swaps": 15
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3_noise|heavy_s103|adonis|s17",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s103",
+   "model": "adonis",
+   "method": "qiskit_l3_noise",
+   "seed": 17,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.36900842135102124,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3_noise|small_s101|adonis|s19",
+  "task": {
+   "suite": "random",
+   "inst": "small_s101",
+   "model": "adonis",
+   "method": "qiskit_l3_noise",
+   "seed": 19,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.2394793119729176,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3_noise|ising_full_r2|adonis|s11",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "ising_full_r2",
+   "model": "adonis",
+   "method": "qiskit_l3_noise",
+   "seed": 11,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.2566371449640872,
+   "n_swaps": 4
+  }
+ },
+ {
+  "experiment": "routing",
+  "name": "qiskit_l3_noise|qaoa_k5_p3|adonis|s2",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_k5_p3",
+   "model": "adonis",
+   "method": "qiskit_l3_noise",
+   "seed": 2,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.0251432515312886,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "preset|heavy_s108|adonis|s8",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s108",
+   "model": "adonis",
+   "method": "preset",
+   "seed": 8,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6290474798131777,
+   "n_cz": 26
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "preset|qv_5q_s1|adonis|s6",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s1",
+   "model": "adonis",
+   "method": "preset",
+   "seed": 6,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.8375928805605201,
+   "n_cz": 33
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "preset_noise|hard_12r|adonis|s0",
+  "task": {
+   "suite": "adversarial",
+   "inst": "hard_12r",
+   "model": "adonis",
+   "method": "preset_noise",
+   "seed": 0,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.9641523177629927,
+   "n_cz": 134
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "preset_noise|qft_adder_2b|adonis|s15",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qft_adder_2b",
+   "model": "adonis",
+   "method": "preset_noise",
+   "seed": 15,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.20814478013020205,
+   "n_cz": 11
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "dp|qaoa_ring_p6|adonis|s1",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_ring_p6",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.5171546026011593,
+   "n_cz": 102
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "dp|qv_5q_s1|adonis|s6",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s1",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 6,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.7695905767886682,
+   "n_cz": 33
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "rs_random|qv_5q_s7|adonis|s13",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s7",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 13,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.8659641437061724,
+   "n_cz": 36
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "rs_random|medium_s108|adonis|s9",
+  "task": {
+   "suite": "random",
+   "inst": "medium_s108",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 9,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.3708962918615396,
+   "n_cz": 17
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "rs_sabre|dense_s107|adonis|s5",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s107",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 5,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.9391588869493959,
+   "n_cz": 83
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "rs_sabre|dense_s102|adonis|s1",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s102",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8573586120668504,
+   "n_cz": 77
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "tabu_random|tiny_1|adonis|s17",
+  "task": {
+   "suite": "fixed",
+   "inst": "tiny_1",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 17,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.10791359289371033,
+   "n_cz": 5
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "tabu_random|heavy_0|adonis|s15",
+  "task": {
+   "suite": "fixed",
+   "inst": "heavy_0",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 15,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5686788006488545,
+   "n_cz": 25
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "tabu_sabre|small_s107|adonis|s12",
+  "task": {
+   "suite": "random",
+   "inst": "small_s107",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 12,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.1776907602047607,
+   "n_cz": 8
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "tabu_sabre|ising_full_r2|adonis|s16",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "ising_full_r2",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 16,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.2643746933058935,
+   "n_cz": 52
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "ga_random|vqe_su2_full_r6|adonis|s5",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "vqe_su2_full_r6",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 5,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.686490096633119,
+   "n_cz": 111
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "ga_random|qaoa_g1_p1|adonis|s14",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g1_p1",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 14,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.35961281454205124,
+   "n_cz": 16
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "ga_sabre|medium_s107|adonis|s17",
+  "task": {
+   "suite": "random",
+   "inst": "medium_s107",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 17,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.17781076280484465,
+   "n_cz": 8
+  }
+ },
+ {
+  "experiment": "pipeline",
+  "name": "ga_sabre|dense_s100|adonis|s5",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s100",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 5,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8390167189000335,
+   "n_cz": 78
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "rs_random|heavy_s106|adonis|s7",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s106",
+   "model": "adonis",
+   "method": "rs_random",
+   "seed": 7,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     1.0702040985245527
+    ],
+    [
+     3,
+     0.8597810666308352
+    ],
+    [
+     4,
+     0.7259882966637314
+    ],
+    [
+     117,
+     0.7241236801405663
+    ],
+    [
+     120,
+     0.7098699635439296
+    ],
+    [
+     145,
+     0.7031964692435214
+    ],
+    [
+     364,
+     0.6387425249128778
+    ],
+    [
+     1176,
+     0.624227308110021
+    ],
+    [
+     2995,
+     0.6188438368764198
+    ],
+    [
+     4431,
+     0.6077973846880604
+    ],
+    [
+     5862,
+     0.5963952581723071
+    ],
+    [
+     7479,
+     0.571602223085588
+    ],
+    [
+     40101,
+     0.5528411983636208
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5528411983636208,
+   "n_swaps": 4,
+   "cost_raw": 0.5528411983636208,
+   "anytime": [
+    [
+     1,
+     1.0702040985245527
+    ],
+    [
+     3,
+     0.8597810666308352
+    ],
+    [
+     4,
+     0.7259882966637314
+    ],
+    [
+     117,
+     0.7241236801405663
+    ],
+    [
+     120,
+     0.7098699635439296
+    ],
+    [
+     145,
+     0.7031964692435214
+    ],
+    [
+     364,
+     0.6387425249128778
+    ],
+    [
+     1176,
+     0.624227308110021
+    ],
+    [
+     2995,
+     0.6188438368764198
+    ],
+    [
+     4431,
+     0.6077973846880604
+    ],
+    [
+     5862,
+     0.5963952581723071
+    ],
+    [
+     7479,
+     0.571602223085588
+    ],
+    [
+     40101,
+     0.5528411983636208
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "rs_sabre|heavy_s104|adonis|s8",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s104",
+   "model": "adonis",
+   "method": "rs_sabre",
+   "seed": 8,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     0.6790108970311677
+    ],
+    [
+     5,
+     0.6303405369768268
+    ],
+    [
+     7,
+     0.606760551237409
+    ],
+    [
+     12,
+     0.5900222554855775
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5900222554855775,
+   "n_swaps": 4,
+   "cost_raw": 0.5900222554855775,
+   "anytime": [
+    [
+     1,
+     0.6790108970311677
+    ],
+    [
+     5,
+     0.6303405369768268
+    ],
+    [
+     7,
+     0.606760551237409
+    ],
+    [
+     12,
+     0.5900222554855775
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "tabu_random|heavy_s109|adonis|s3",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s109",
+   "model": "adonis",
+   "method": "tabu_random",
+   "seed": 3,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     1.0197432599602565
+    ],
+    [
+     6,
+     0.867317175730367
+    ],
+    [
+     10,
+     0.860211465212818
+    ],
+    [
+     13,
+     0.8476882131775226
+    ],
+    [
+     18,
+     0.8471880756395952
+    ],
+    [
+     34,
+     0.7057033265382995
+    ],
+    [
+     43,
+     0.6985972928705605
+    ],
+    [
+     47,
+     0.6915147835405754
+    ],
+    [
+     60,
+     0.6912647397816151
+    ],
+    [
+     82,
+     0.6841587061138761
+    ],
+    [
+     99,
+     0.6792279418108467
+    ],
+    [
+     112,
+     0.6791879406108052
+    ],
+    [
+     114,
+     0.6661515737753682
+    ],
+    [
+     320,
+     0.6565518945835214
+    ],
+    [
+     386,
+     0.6523361850496381
+    ],
+    [
+     394,
+     0.621731070105122
+    ],
+    [
+     421,
+     0.6127978287746285
+    ],
+    [
+     448,
+     0.5706939937609505
+    ],
+    [
+     459,
+     0.5485212785447626
+    ],
+    [
+     6755,
+     0.5376014147167435
+    ],
+    [
+     7096,
+     0.5279869884554922
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5279869884554922,
+   "n_swaps": 3,
+   "cost_raw": 0.5279869884554922,
+   "anytime": [
+    [
+     1,
+     1.0197432599602565
+    ],
+    [
+     6,
+     0.867317175730367
+    ],
+    [
+     10,
+     0.860211465212818
+    ],
+    [
+     13,
+     0.8476882131775226
+    ],
+    [
+     18,
+     0.8471880756395952
+    ],
+    [
+     34,
+     0.7057033265382995
+    ],
+    [
+     43,
+     0.6985972928705605
+    ],
+    [
+     47,
+     0.6915147835405754
+    ],
+    [
+     60,
+     0.6912647397816151
+    ],
+    [
+     82,
+     0.6841587061138761
+    ],
+    [
+     99,
+     0.6792279418108467
+    ],
+    [
+     112,
+     0.6791879406108052
+    ],
+    [
+     114,
+     0.6661515737753682
+    ],
+    [
+     320,
+     0.6565518945835214
+    ],
+    [
+     386,
+     0.6523361850496381
+    ],
+    [
+     394,
+     0.621731070105122
+    ],
+    [
+     421,
+     0.6127978287746285
+    ],
+    [
+     448,
+     0.5706939937609505
+    ],
+    [
+     459,
+     0.5485212785447626
+    ],
+    [
+     6755,
+     0.5376014147167435
+    ],
+    [
+     7096,
+     0.5279869884554922
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "tabu_sabre|heavy_s107|adonis|s8",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s107",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 8,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     0.5708079385812883
+    ],
+    [
+     2,
+     0.5330183411648138
+    ],
+    [
+     6,
+     0.5231351738347244
+    ],
+    [
+     7,
+     0.5211775716922983
+    ],
+    [
+     16,
+     0.5180813288487656
+    ],
+    [
+     27,
+     0.5097503983511875
+    ],
+    [
+     1544,
+     0.5095932785378042
+    ],
+    [
+     1569,
+     0.500810078468689
+    ],
+    [
+     12826,
+     0.49590861363257743
+    ],
+    [
+     13483,
+     0.4952159773543575
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.4952159773543575,
+   "n_swaps": 3,
+   "cost_raw": 0.4952159773543575,
+   "anytime": [
+    [
+     1,
+     0.5708079385812883
+    ],
+    [
+     2,
+     0.5330183411648138
+    ],
+    [
+     6,
+     0.5231351738347244
+    ],
+    [
+     7,
+     0.5211775716922983
+    ],
+    [
+     16,
+     0.5180813288487656
+    ],
+    [
+     27,
+     0.5097503983511875
+    ],
+    [
+     1544,
+     0.5095932785378042
+    ],
+    [
+     1569,
+     0.500810078468689
+    ],
+    [
+     12826,
+     0.49590861363257743
+    ],
+    [
+     13483,
+     0.4952159773543575
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "ga_random|heavy_s101|adonis|s4",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s101",
+   "model": "adonis",
+   "method": "ga_random",
+   "seed": 4,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     1.3611767485710635
+    ],
+    [
+     3,
+     1.2165237167191305
+    ],
+    [
+     6,
+     1.1855824973800946
+    ],
+    [
+     8,
+     1.1459875050373936
+    ],
+    [
+     10,
+     0.894356377137761
+    ],
+    [
+     47,
+     0.8926536929992475
+    ],
+    [
+     123,
+     0.8645472085952971
+    ],
+    [
+     161,
+     0.8418861988707653
+    ],
+    [
+     538,
+     0.782164956830016
+    ],
+    [
+     903,
+     0.7818567528979826
+    ],
+    [
+     972,
+     0.7721719535126813
+    ],
+    [
+     1169,
+     0.77213195231264
+    ],
+    [
+     1435,
+     0.766866563061648
+    ],
+    [
+     2226,
+     0.7668265618616067
+    ],
+    [
+     10518,
+     0.7667865606615654
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.7667865606615654,
+   "n_swaps": 7,
+   "cost_raw": 0.7667865606615654,
+   "anytime": [
+    [
+     1,
+     1.3611767485710635
+    ],
+    [
+     3,
+     1.2165237167191305
+    ],
+    [
+     6,
+     1.1855824973800946
+    ],
+    [
+     8,
+     1.1459875050373936
+    ],
+    [
+     10,
+     0.894356377137761
+    ],
+    [
+     47,
+     0.8926536929992475
+    ],
+    [
+     123,
+     0.8645472085952971
+    ],
+    [
+     161,
+     0.8418861988707653
+    ],
+    [
+     538,
+     0.782164956830016
+    ],
+    [
+     903,
+     0.7818567528979826
+    ],
+    [
+     972,
+     0.7721719535126813
+    ],
+    [
+     1169,
+     0.77213195231264
+    ],
+    [
+     1435,
+     0.766866563061648
+    ],
+    [
+     2226,
+     0.7668265618616067
+    ],
+    [
+     10518,
+     0.7667865606615654
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "budget",
+  "name": "ga_sabre|dense_s104|adonis|s1",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s104",
+   "model": "adonis",
+   "method": "ga_sabre",
+   "seed": 1,
+   "objective": "fidelity",
+   "max_evals": 50000,
+   "polish": false,
+   "anytime": [
+    [
+     1,
+     2.212153983158029
+    ],
+    [
+     2,
+     2.0657787065943536
+    ],
+    [
+     5,
+     2.053329068229444
+    ],
+    [
+     8,
+     2.0462052237488675
+    ],
+    [
+     450,
+     1.9613294311911629
+    ],
+    [
+     1370,
+     1.9608293436732422
+    ],
+    [
+     1513,
+     1.9155643135774627
+    ],
+    [
+     3400,
+     1.8859749640263186
+    ],
+    [
+     3733,
+     1.8665067438721938
+    ],
+    [
+     3752,
+     1.8576426296376067
+    ],
+    [
+     14034,
+     1.8370906523412134
+    ]
+   ],
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8370906523412134,
+   "n_swaps": 12,
+   "cost_raw": 1.8370906523412134,
+   "anytime": [
+    [
+     1,
+     2.212153983158029
+    ],
+    [
+     2,
+     2.0657787065943536
+    ],
+    [
+     5,
+     2.053329068229444
+    ],
+    [
+     8,
+     2.0462052237488675
+    ],
+    [
+     450,
+     1.9613294311911629
+    ],
+    [
+     1370,
+     1.9608293436732422
+    ],
+    [
+     1513,
+     1.9155643135774627
+    ],
+    [
+     3400,
+     1.8859749640263186
+    ],
+    [
+     3733,
+     1.8665067438721938
+    ],
+    [
+     3752,
+     1.8576426296376067
+    ],
+    [
+     14034,
+     1.8370906523412134
+    ]
+   ]
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "dp_blind|tiny_s108|calib_11|s0",
+  "task": {
+   "suite": "random",
+   "inst": "tiny_s108",
+   "model": "calib_11",
+   "method": "dp_blind",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.29796903274724046,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "qiskit_l3_noise|tiny_1|calib_14|s3",
+  "task": {
+   "suite": "fixed",
+   "inst": "tiny_1",
+   "model": "calib_14",
+   "method": "qiskit_l3_noise",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.2774080459548573,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "ga_random|qaoa_g1_p1|calib_02|s3",
+  "task": {
+   "suite": "structured",
+   "inst": "qaoa_g1_p1",
+   "model": "calib_02",
+   "method": "ga_random",
+   "seed": 3,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.029583381121281,
+   "n_swaps": 2,
+   "cost_raw": 1.029583381121281,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "ga_random|medium_s104|calib_03|s1",
+  "task": {
+   "suite": "random",
+   "inst": "medium_s104",
+   "model": "calib_03",
+   "method": "ga_random",
+   "seed": 1,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.7692082664398739,
+   "n_swaps": 3,
+   "cost_raw": 0.7692082664398739,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "qiskit_l3_noise|dense_s100|calib_06|s3",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s100",
+   "model": "calib_06",
+   "method": "qiskit_l3_noise",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 4.699540946459357,
+   "n_swaps": 18
+  }
+ },
+ {
+  "experiment": "robust_routing",
+  "name": "ga_random|dense_1|calib_20|s4",
+  "task": {
+   "suite": "fixed",
+   "inst": "dense_1",
+   "model": "calib_20",
+   "method": "ga_random",
+   "seed": 4,
+   "objective": "fidelity",
+   "max_evals": 10000,
+   "polish": true,
+   "anytime": false,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 5.8150701031596626,
+   "n_swaps": 20,
+   "cost_raw": 5.824207150309535,
+   "anytime": false
+  }
+ },
+ {
+  "experiment": "robust_pipeline",
+  "name": "tabu_sabre|ising_full_r4|calib_04|s2",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "ising_full_r4",
+   "model": "calib_04",
+   "method": "tabu_sabre",
+   "seed": 2,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 6.757274174983156,
+   "n_cz": 107
+  }
+ },
+ {
+  "experiment": "robust_pipeline",
+  "name": "dp|qaoa_ring_p6|calib_09|s1",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_ring_p6",
+   "model": "calib_09",
+   "method": "dp",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 6.107137663947397,
+   "n_cz": 102
+  }
+ },
+ {
+  "experiment": "robust_pipeline",
+  "name": "tabu_sabre|dense_s102|calib_10|s1",
+  "task": {
+   "suite": "random",
+   "inst": "dense_s102",
+   "model": "calib_10",
+   "method": "tabu_sabre",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 4.682522851226699,
+   "n_cz": 73
+  }
+ },
+ {
+  "experiment": "robust_pipeline",
+  "name": "preset_noise|qv_5q_s9|calib_11|s1",
+  "task": {
+   "suite": "structured",
+   "inst": "qv_5q_s9",
+   "model": "calib_11",
+   "method": "preset_noise",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.3086928416394765,
+   "n_cz": 33
+  }
+ },
+ {
+  "experiment": "aer",
+  "name": "dp|heavy_s106|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "heavy_s106",
+   "model": "adonis",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.5528898534130466,
+   "n_cz": 25,
+   "F_depol": 0.564002524684536,
+   "F_adonis": 0.4738990000002716,
+   "F_adonis_idle": 0.3416779525247675,
+   "proxy": 0.5752849168096481
+  }
+ },
+ {
+  "experiment": "aer",
+  "name": "tabu_sabre|qaoa_k5_p3|adonis|s0",
+  "task": {
+   "suite": "algorithmic",
+   "inst": "qaoa_k5_p3",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.9852944787479985,
+   "n_cz": 82,
+   "F_depol": 0.11814925029148017,
+   "F_adonis": 0.07661349931618217,
+   "F_adonis_idle": 0.04940475207726615,
+   "proxy": 0.13734016440179286
+  }
+ },
+ {
+  "experiment": "aer",
+  "name": "preset_noise|medium_s105|adonis|s0",
+  "task": {
+   "suite": "random",
+   "inst": "medium_s105",
+   "model": "adonis",
+   "method": "preset_noise",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.23888330658634244,
+   "n_cz": 10,
+   "F_depol": 0.7693235088145227,
+   "F_adonis": 0.7091335562631205,
+   "F_adonis_idle": 0.6242653962502338,
+   "proxy": 0.7875067738647384
+  }
+ },
+ {
+  "experiment": "aer",
+  "name": "tabu_sabre|qft_5q|adonis|s0",
+  "task": {
+   "suite": "structured",
+   "inst": "qft_5q",
+   "model": "adonis",
+   "method": "tabu_sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6898562640500366,
+   "n_cz": 29,
+   "F_depol": 0.5099892690776596,
+   "F_adonis": 0.4077305074050046,
+   "F_adonis_idle": 0.2967898382309453,
+   "proxy": 0.5016481687603566
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "tabu_random|tiny_s200|calib_00|s3",
+  "task": {
+   "suite": "tuning",
+   "inst": "tiny_s200",
+   "model": "calib_00",
+   "method": "tabu_random",
+   "seed": 3,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "candidates": 4,
+    "tenure": 7,
+    "stagnation": 100,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.29172348178851626,
+   "cost_raw": 0.29172348178851626,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "tabu_random|heavy_s202|calib_00|s2",
+  "task": {
+   "suite": "tuning",
+   "inst": "heavy_s202",
+   "model": "calib_00",
+   "method": "tabu_random",
+   "seed": 2,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "candidates": 4,
+    "tenure": 7,
+    "stagnation": 400,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.4243104820324681,
+   "cost_raw": 1.4243104820324681,
+   "n_swaps": 4
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "tabu_random|tiny_s203|calib_00|s1",
+  "task": {
+   "suite": "tuning",
+   "inst": "tiny_s203",
+   "model": "calib_00",
+   "method": "tabu_random",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "candidates": 8,
+    "tenure": 7,
+    "stagnation": 100,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.23970791421112134,
+   "cost_raw": 0.23970791421112134,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "tabu_random|heavy_s203|calib_00|s2",
+  "task": {
+   "suite": "tuning",
+   "inst": "heavy_s203",
+   "model": "calib_00",
+   "method": "tabu_random",
+   "seed": 2,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "candidates": 32,
+    "tenure": 3,
+    "stagnation": 100,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8826164062953252,
+   "cost_raw": 1.8826164062953252,
+   "n_swaps": 6
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "ga_random|small_s203|calib_00|s2",
+  "task": {
+   "suite": "tuning",
+   "inst": "small_s203",
+   "model": "calib_00",
+   "method": "ga_random",
+   "seed": 2,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "population": 160,
+    "mutation_rate": 0.5,
+    "crossover_rate": 0.9,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.4012599698823443,
+   "cost_raw": 0.4012599698823443,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "ga_random|tiny_s203|calib_00|s0",
+  "task": {
+   "suite": "tuning",
+   "inst": "tiny_s203",
+   "model": "calib_00",
+   "method": "ga_random",
+   "seed": 0,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "population": 80,
+    "mutation_rate": 0.4,
+    "crossover_rate": 0.9,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.23970791421112134,
+   "cost_raw": 0.23970791421112134,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "ga_random|tiny_s203|calib_00|s1",
+  "task": {
+   "suite": "tuning",
+   "inst": "tiny_s203",
+   "model": "calib_00",
+   "method": "ga_random",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "population": 20,
+    "mutation_rate": 0.3,
+    "crossover_rate": 0.9,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.23970791421112134,
+   "cost_raw": 0.23970791421112134,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "ga_random|small_s204|calib_00|s1",
+  "task": {
+   "suite": "tuning",
+   "inst": "small_s204",
+   "model": "calib_00",
+   "method": "ga_random",
+   "seed": 1,
+   "max_evals": 10000,
+   "polish": true,
+   "params": {
+    "population": 40,
+    "mutation_rate": 0.3,
+    "crossover_rate": 0.7,
+    "local_order": false
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6347370700358996,
+   "cost_raw": 0.6347370700358996,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "dp|dense_s200|calib_00|s0",
+  "task": {
+   "suite": "tuning",
+   "inst": "dense_s200",
+   "model": "calib_00",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 3.6156285976876115,
+   "n_swaps": 12
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "dp|small_s204|calib_00|s0",
+  "task": {
+   "suite": "tuning",
+   "inst": "small_s204",
+   "model": "calib_00",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.6340863125391943,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "dp|small_s201|calib_00|s0",
+  "task": {
+   "suite": "tuning",
+   "inst": "small_s201",
+   "model": "calib_00",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.3887353892325827,
+   "n_swaps": 1
+  }
+ },
+ {
+  "experiment": "tune",
+  "name": "dp|medium_s202|calib_00|s0",
+  "task": {
+   "suite": "tuning",
+   "inst": "medium_s202",
+   "model": "calib_00",
+   "method": "dp",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 0.7759845098882465,
+   "n_swaps": 2
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "dp|N5|c8|m1|s0",
+  "task": {
+   "n": 5,
+   "circ": 8,
+   "cal": 1,
+   "method": "dp",
+   "seed": 0,
+   "budget_s": 60.0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.5396759454706648,
+   "n_swaps": 10,
+   "dp_finished": true
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "dp|N5|c4|m4|s0",
+  "task": {
+   "n": 5,
+   "circ": 4,
+   "cal": 4,
+   "method": "dp",
+   "seed": 0,
+   "budget_s": 60.0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.892249389429962,
+   "n_swaps": 8,
+   "dp_finished": true
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "dp|N6|c2|m3|s0",
+  "task": {
+   "n": 6,
+   "circ": 2,
+   "cal": 3,
+   "method": "dp",
+   "seed": 0,
+   "budget_s": 60.0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.4093477944392936,
+   "n_swaps": 4,
+   "dp_finished": true
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "sabre|N7|c6|m4|s1",
+  "task": {
+   "n": 7,
+   "circ": 6,
+   "cal": 4,
+   "method": "sabre",
+   "seed": 1,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 3.257336497586248,
+   "n_swaps": 13
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "sabre|N5|c1|m5|s4",
+  "task": {
+   "n": 5,
+   "circ": 1,
+   "cal": 5,
+   "method": "sabre",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.2951349588001797,
+   "n_swaps": 9
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "sabre|N5|c2|m5|s4",
+  "task": {
+   "n": 5,
+   "circ": 2,
+   "cal": 5,
+   "method": "sabre",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.022080133899891,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_sabre|N8|c3|m4|s0",
+  "task": {
+   "n": 8,
+   "circ": 3,
+   "cal": 4,
+   "method": "tabu_sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.0639300960870153,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_sabre|N7|c1|m5|s3",
+  "task": {
+   "n": 7,
+   "circ": 1,
+   "cal": 5,
+   "method": "tabu_sabre",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.3639931285056175,
+   "n_swaps": 9
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_sabre|N5|c3|m5|s1",
+  "task": {
+   "n": 5,
+   "circ": 3,
+   "cal": 5,
+   "method": "tabu_sabre",
+   "seed": 1,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.0164018137742046,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_random|N6|c4|m5|s4",
+  "task": {
+   "n": 6,
+   "circ": 4,
+   "cal": 5,
+   "method": "ga_random",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.295173120214753,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_random|N7|c3|m5|s1",
+  "task": {
+   "n": 7,
+   "circ": 3,
+   "cal": 5,
+   "method": "ga_random",
+   "seed": 1,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.7791319779176327,
+   "n_swaps": 11
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_random|N5|c2|m2|s4",
+  "task": {
+   "n": 5,
+   "circ": 2,
+   "cal": 2,
+   "method": "ga_random",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.7705017107126884,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "rs_sabre|N8|c7|m2|s3",
+  "task": {
+   "n": 8,
+   "circ": 7,
+   "cal": 2,
+   "method": "rs_sabre",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.1435334063092544,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "rs_sabre|N7|c0|m4|s4",
+  "task": {
+   "n": 7,
+   "circ": 0,
+   "cal": 4,
+   "method": "rs_sabre",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.19770733381832,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "rs_sabre|N5|c8|m5|s1",
+  "task": {
+   "n": 5,
+   "circ": 8,
+   "cal": 5,
+   "method": "rs_sabre",
+   "seed": 1,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.8985889485358056,
+   "n_swaps": 14
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_random|N5|c1|m3|s3",
+  "task": {
+   "n": 5,
+   "circ": 1,
+   "cal": 3,
+   "method": "tabu_random",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.4193690146705,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_random|N5|c3|m3|s3",
+  "task": {
+   "n": 5,
+   "circ": 3,
+   "cal": 3,
+   "method": "tabu_random",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.3993761754335323,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_random|N6|c7|m4|s4",
+  "task": {
+   "n": 6,
+   "circ": 7,
+   "cal": 4,
+   "method": "tabu_random",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.319065972939561,
+   "n_swaps": 9
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_sabre|N6|c7|m1|s3",
+  "task": {
+   "n": 6,
+   "circ": 7,
+   "cal": 1,
+   "method": "ga_sabre",
+   "seed": 3,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.4407670176414533,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_sabre|N5|c2|m4|s4",
+  "task": {
+   "n": 5,
+   "circ": 2,
+   "cal": 4,
+   "method": "ga_sabre",
+   "seed": 4,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.6626241526668746,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_sabre|N5|c9|m5|s0",
+  "task": {
+   "n": 5,
+   "circ": 9,
+   "cal": 5,
+   "method": "ga_sabre",
+   "seed": 0,
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.7385249022514349,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "rs_lookahead|N6|c8|m3|s2",
+  "task": {
+   "n": 6,
+   "circ": 8,
+   "cal": 3,
+   "method": "rs_lookahead",
+   "seed": 2,
+   "params": {},
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.582043040172052,
+   "n_swaps": 11
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "rs_lookahead|N8|c5|m3|s1",
+  "task": {
+   "n": 8,
+   "circ": 5,
+   "cal": 3,
+   "method": "rs_lookahead",
+   "seed": 1,
+   "params": {},
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.314938278785434,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_lookahead|N7|c2|m5|s3",
+  "task": {
+   "n": 7,
+   "circ": 2,
+   "cal": 5,
+   "method": "tabu_lookahead",
+   "seed": 3,
+   "params": {
+    "stagnation": 100
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 1.8687747331246167,
+   "n_swaps": 7
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "tabu_lookahead|N8|c5|m1|s2",
+  "task": {
+   "n": 8,
+   "circ": 5,
+   "cal": 1,
+   "method": "tabu_lookahead",
+   "seed": 2,
+   "params": {
+    "stagnation": 100
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.442157256950145,
+   "n_swaps": 10
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_lookahead|N8|c7|m5|s2",
+  "task": {
+   "n": 8,
+   "circ": 7,
+   "cal": 5,
+   "method": "ga_lookahead",
+   "seed": 2,
+   "params": {
+    "population": 160,
+    "mutation_rate": 0.5
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.093350050255771,
+   "n_swaps": 8
+  }
+ },
+ {
+  "experiment": "scaling",
+  "name": "ga_lookahead|N8|c1|m5|s4",
+  "task": {
+   "n": 8,
+   "circ": 1,
+   "cal": 5,
+   "method": "ga_lookahead",
+   "seed": 4,
+   "params": {
+    "population": 160,
+    "mutation_rate": 0.5
+   },
+   "key": "regression"
+  },
+  "expected": {
+   "cost": 2.2230830712429444,
+   "n_swaps": 9
+  }
+ }
+]

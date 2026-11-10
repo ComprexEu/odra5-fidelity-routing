@@ -1,0 +1,1453 @@
+{
+ "odra5": [
+  {
+   "name": "tiny_0",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_0.qasm",
+   "source": "random_circuit(n=5, num_gates=4, p_two_qubit=0.5, seed=0)",
+   "gates": 5,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 3,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_1",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_1.qasm",
+   "source": "random_circuit(n=5, num_gates=6, p_two_qubit=0.5, seed=1)",
+   "gates": 10,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 5,
+   "in_paper": true
+  },
+  {
+   "name": "small_0",
+   "group": "Random small",
+   "file": "odra5/small/small_0.qasm",
+   "source": "random_circuit(n=5, num_gates=10, p_two_qubit=0.4, seed=42)",
+   "gates": 17,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 6,
+   "in_paper": true
+  },
+  {
+   "name": "small_1",
+   "group": "Random small",
+   "file": "odra5/small/small_1.qasm",
+   "source": "random_circuit(n=5, num_gates=12, p_two_qubit=0.4, seed=99)",
+   "gates": 18,
+   "two_qubit_after_reduction": 4,
+   "depth_after_reduction": 9,
+   "in_paper": true
+  },
+  {
+   "name": "medium_0",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_0.qasm",
+   "source": "random_circuit(n=5, num_gates=20, p_two_qubit=0.35, seed=123)",
+   "gates": 33,
+   "two_qubit_after_reduction": 5,
+   "depth_after_reduction": 10,
+   "in_paper": true
+  },
+  {
+   "name": "medium_1",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_1.qasm",
+   "source": "random_circuit(n=5, num_gates=25, p_two_qubit=0.35, seed=456)",
+   "gates": 39,
+   "two_qubit_after_reduction": 9,
+   "depth_after_reduction": 17,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_0",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_0.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.3, seed=789)",
+   "gates": 67,
+   "two_qubit_after_reduction": 13,
+   "depth_after_reduction": 23,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_1",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_1.qasm",
+   "source": "random_circuit(n=5, num_gates=50, p_two_qubit=0.3, seed=1001)",
+   "gates": 84,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 31,
+   "in_paper": true
+  },
+  {
+   "name": "dense_0",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_0.qasm",
+   "source": "random_circuit(n=5, num_gates=60, p_two_qubit=0.7, seed=2024)",
+   "gates": 76,
+   "two_qubit_after_reduction": 38,
+   "depth_after_reduction": 44,
+   "in_paper": true
+  },
+  {
+   "name": "dense_1",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_1.qasm",
+   "source": "random_circuit(n=5, num_gates=80, p_two_qubit=0.65, seed=2025)",
+   "gates": 105,
+   "two_qubit_after_reduction": 51,
+   "depth_after_reduction": 54,
+   "in_paper": true
+  },
+  {
+   "name": "hard_2r",
+   "group": "Adversarial",
+   "file": "odra5/hard/hard_2r.qasm",
+   "source": "adversarial_circuit(rounds=2): one CX on each of the six leaf pairs per round",
+   "gates": 12,
+   "two_qubit_after_reduction": 12,
+   "depth_after_reduction": 11,
+   "in_paper": true
+  },
+  {
+   "name": "hard_4r",
+   "group": "Adversarial",
+   "file": "odra5/hard/hard_4r.qasm",
+   "source": "adversarial_circuit(rounds=4): one CX on each of the six leaf pairs per round",
+   "gates": 24,
+   "two_qubit_after_reduction": 24,
+   "depth_after_reduction": 19,
+   "in_paper": true
+  },
+  {
+   "name": "hard_8r",
+   "group": "Adversarial",
+   "file": "odra5/hard/hard_8r.qasm",
+   "source": "adversarial_circuit(rounds=8): one CX on each of the six leaf pairs per round",
+   "gates": 48,
+   "two_qubit_after_reduction": 48,
+   "depth_after_reduction": 38,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s100",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s100.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=100)",
+   "gates": 7,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 4,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s101",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s101.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=101)",
+   "gates": 8,
+   "two_qubit_after_reduction": 0,
+   "depth_after_reduction": 2,
+   "in_paper": false
+  },
+  {
+   "name": "tiny_s102",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s102.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=102)",
+   "gates": 7,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 5,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s103",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s103.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=103)",
+   "gates": 8,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 3,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s104",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s104.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=104)",
+   "gates": 8,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s105",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s105.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=105)",
+   "gates": 8,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 4,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s106",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s106.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=106)",
+   "gates": 9,
+   "two_qubit_after_reduction": 1,
+   "depth_after_reduction": 5,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s107",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s107.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=107)",
+   "gates": 6,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 2,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s108",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s108.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=108)",
+   "gates": 7,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 3,
+   "in_paper": true
+  },
+  {
+   "name": "tiny_s109",
+   "group": "Random tiny",
+   "file": "odra5/tiny/tiny_s109.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=109)",
+   "gates": 9,
+   "two_qubit_after_reduction": 1,
+   "depth_after_reduction": 4,
+   "in_paper": true
+  },
+  {
+   "name": "small_s100",
+   "group": "Random small",
+   "file": "odra5/small/small_s100.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=100)",
+   "gates": 15,
+   "two_qubit_after_reduction": 7,
+   "depth_after_reduction": 8,
+   "in_paper": true
+  },
+  {
+   "name": "small_s101",
+   "group": "Random small",
+   "file": "odra5/small/small_s101.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=101)",
+   "gates": 17,
+   "two_qubit_after_reduction": 5,
+   "depth_after_reduction": 8,
+   "in_paper": true
+  },
+  {
+   "name": "small_s102",
+   "group": "Random small",
+   "file": "odra5/small/small_s102.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=102)",
+   "gates": 18,
+   "two_qubit_after_reduction": 4,
+   "depth_after_reduction": 8,
+   "in_paper": true
+  },
+  {
+   "name": "small_s103",
+   "group": "Random small",
+   "file": "odra5/small/small_s103.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=103)",
+   "gates": 19,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "small_s104",
+   "group": "Random small",
+   "file": "odra5/small/small_s104.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=104)",
+   "gates": 16,
+   "two_qubit_after_reduction": 6,
+   "depth_after_reduction": 10,
+   "in_paper": true
+  },
+  {
+   "name": "small_s105",
+   "group": "Random small",
+   "file": "odra5/small/small_s105.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=105)",
+   "gates": 20,
+   "two_qubit_after_reduction": 2,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "small_s106",
+   "group": "Random small",
+   "file": "odra5/small/small_s106.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=106)",
+   "gates": 18,
+   "two_qubit_after_reduction": 4,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "small_s107",
+   "group": "Random small",
+   "file": "odra5/small/small_s107.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=107)",
+   "gates": 17,
+   "two_qubit_after_reduction": 5,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "small_s108",
+   "group": "Random small",
+   "file": "odra5/small/small_s108.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=108)",
+   "gates": 15,
+   "two_qubit_after_reduction": 7,
+   "depth_after_reduction": 6,
+   "in_paper": true
+  },
+  {
+   "name": "small_s109",
+   "group": "Random small",
+   "file": "odra5/small/small_s109.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=109)",
+   "gates": 18,
+   "two_qubit_after_reduction": 4,
+   "depth_after_reduction": 7,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s100",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s100.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=100)",
+   "gates": 34,
+   "two_qubit_after_reduction": 10,
+   "depth_after_reduction": 16,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s101",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s101.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=101)",
+   "gates": 36,
+   "two_qubit_after_reduction": 8,
+   "depth_after_reduction": 15,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s102",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s102.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=102)",
+   "gates": 36,
+   "two_qubit_after_reduction": 8,
+   "depth_after_reduction": 18,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s103",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s103.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=103)",
+   "gates": 38,
+   "two_qubit_after_reduction": 6,
+   "depth_after_reduction": 11,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s104",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s104.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=104)",
+   "gates": 35,
+   "two_qubit_after_reduction": 9,
+   "depth_after_reduction": 13,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s105",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s105.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=105)",
+   "gates": 38,
+   "two_qubit_after_reduction": 6,
+   "depth_after_reduction": 13,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s106",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s106.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=106)",
+   "gates": 39,
+   "two_qubit_after_reduction": 5,
+   "depth_after_reduction": 14,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s107",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s107.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=107)",
+   "gates": 39,
+   "two_qubit_after_reduction": 5,
+   "depth_after_reduction": 12,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s108",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s108.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=108)",
+   "gates": 34,
+   "two_qubit_after_reduction": 8,
+   "depth_after_reduction": 12,
+   "in_paper": true
+  },
+  {
+   "name": "medium_s109",
+   "group": "Random medium",
+   "file": "odra5/medium/medium_s109.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=109)",
+   "gates": 37,
+   "two_qubit_after_reduction": 7,
+   "depth_after_reduction": 15,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s100",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s100.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=100)",
+   "gates": 72,
+   "two_qubit_after_reduction": 16,
+   "depth_after_reduction": 27,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s101",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s101.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=101)",
+   "gates": 73,
+   "two_qubit_after_reduction": 17,
+   "depth_after_reduction": 31,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s102",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s102.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=102)",
+   "gates": 76,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 33,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s103",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s103.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=103)",
+   "gates": 81,
+   "two_qubit_after_reduction": 9,
+   "depth_after_reduction": 24,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s104",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s104.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=104)",
+   "gates": 75,
+   "two_qubit_after_reduction": 15,
+   "depth_after_reduction": 28,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s105",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s105.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=105)",
+   "gates": 81,
+   "two_qubit_after_reduction": 9,
+   "depth_after_reduction": 24,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s106",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s106.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=106)",
+   "gates": 77,
+   "two_qubit_after_reduction": 13,
+   "depth_after_reduction": 29,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s107",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s107.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=107)",
+   "gates": 75,
+   "two_qubit_after_reduction": 13,
+   "depth_after_reduction": 24,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s108",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s108.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=108)",
+   "gates": 74,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 26,
+   "in_paper": true
+  },
+  {
+   "name": "heavy_s109",
+   "group": "Random heavy",
+   "file": "odra5/heavy/heavy_s109.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=109)",
+   "gates": 76,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 29,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s100",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s100.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=100)",
+   "gates": 91,
+   "two_qubit_after_reduction": 45,
+   "depth_after_reduction": 45,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s101",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s101.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=101)",
+   "gates": 92,
+   "two_qubit_after_reduction": 46,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s102",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s102.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=102)",
+   "gates": 94,
+   "two_qubit_after_reduction": 42,
+   "depth_after_reduction": 51,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s103",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s103.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=103)",
+   "gates": 93,
+   "two_qubit_after_reduction": 45,
+   "depth_after_reduction": 46,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s104",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s104.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=104)",
+   "gates": 90,
+   "two_qubit_after_reduction": 44,
+   "depth_after_reduction": 50,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s105",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s105.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=105)",
+   "gates": 99,
+   "two_qubit_after_reduction": 37,
+   "depth_after_reduction": 49,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s106",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s106.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=106)",
+   "gates": 95,
+   "two_qubit_after_reduction": 41,
+   "depth_after_reduction": 41,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s107",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s107.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=107)",
+   "gates": 89,
+   "two_qubit_after_reduction": 45,
+   "depth_after_reduction": 45,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s108",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s108.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=108)",
+   "gates": 93,
+   "two_qubit_after_reduction": 41,
+   "depth_after_reduction": 43,
+   "in_paper": true
+  },
+  {
+   "name": "dense_s109",
+   "group": "Random dense",
+   "file": "odra5/dense/dense_s109.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=109)",
+   "gates": 96,
+   "two_qubit_after_reduction": 40,
+   "depth_after_reduction": 49,
+   "in_paper": true
+  },
+  {
+   "name": "hard_12r",
+   "group": "Adversarial",
+   "file": "odra5/hard/hard_12r.qasm",
+   "source": "adversarial_circuit(rounds=12): one CX on each of the six leaf pairs per round",
+   "gates": 72,
+   "two_qubit_after_reduction": 72,
+   "depth_after_reduction": 58,
+   "in_paper": true
+  },
+  {
+   "name": "hard_16r",
+   "group": "Adversarial",
+   "file": "odra5/hard/hard_16r.qasm",
+   "source": "adversarial_circuit(rounds=16): one CX on each of the six leaf pairs per round",
+   "gates": 96,
+   "two_qubit_after_reduction": 96,
+   "depth_after_reduction": 77,
+   "in_paper": true
+  },
+  {
+   "name": "ghz_5q",
+   "group": "Other structured",
+   "file": "odra5/other/ghz_5q.qasm",
+   "source": "GHZ state (H and a CX chain)",
+   "gates": 22,
+   "two_qubit_after_reduction": 4,
+   "depth_after_reduction": 14,
+   "in_paper": true
+  },
+  {
+   "name": "qft_5q",
+   "group": "Other structured",
+   "file": "odra5/other/qft_5q.qasm",
+   "source": "Qiskit QFT(5, do_swaps=False)",
+   "gates": 82,
+   "two_qubit_after_reduction": 20,
+   "depth_after_reduction": 44,
+   "in_paper": true
+  },
+  {
+   "name": "aqft_5q",
+   "group": "Other structured",
+   "file": "odra5/other/aqft_5q.qasm",
+   "source": "Qiskit QFT(5, approximation_degree=2, do_swaps=False)",
+   "gates": 58,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 44,
+   "in_paper": true
+  },
+  {
+   "name": "w_state_5q",
+   "group": "Other structured",
+   "file": "odra5/other/w_state_5q.qasm",
+   "source": "W state (RY and a controlled-H cascade)",
+   "gates": 41,
+   "two_qubit_after_reduction": 8,
+   "depth_after_reduction": 20,
+   "in_paper": true
+  },
+  {
+   "name": "bv_5q",
+   "group": "Other structured",
+   "file": "odra5/other/bv_5q.qasm",
+   "source": "Bernstein-Vazirani, secret 1011",
+   "gates": 22,
+   "two_qubit_after_reduction": 3,
+   "depth_after_reduction": 11,
+   "in_paper": true
+  },
+  {
+   "name": "grover_4q",
+   "group": "Other structured",
+   "file": "odra5/other/grover_4q.qasm",
+   "source": "Grover search on 4 qubits with an ancilla, 1 iteration",
+   "gates": 255,
+   "two_qubit_after_reduction": 72,
+   "depth_after_reduction": 201,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g0_p1",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g0_p1.qasm",
+   "source": "QAOA MaxCut, p=1, random 5-node graph (edge probability 0.5, seed 300), gamma=0.39, beta=0.25",
+   "gates": 56,
+   "two_qubit_after_reduction": 14,
+   "depth_after_reduction": 34,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g0_p2",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g0_p2.qasm",
+   "source": "QAOA MaxCut, p=2, random 5-node graph (edge probability 0.5, seed 300), gamma=0.39, beta=0.25",
+   "gates": 104,
+   "two_qubit_after_reduction": 28,
+   "depth_after_reduction": 62,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g1_p1",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g1_p1.qasm",
+   "source": "QAOA MaxCut, p=1, random 5-node graph (edge probability 0.5, seed 301), gamma=0.39, beta=0.25",
+   "gates": 49,
+   "two_qubit_after_reduction": 12,
+   "depth_after_reduction": 28,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g1_p2",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g1_p2.qasm",
+   "source": "QAOA MaxCut, p=2, random 5-node graph (edge probability 0.5, seed 301), gamma=0.39, beta=0.25",
+   "gates": 90,
+   "two_qubit_after_reduction": 24,
+   "depth_after_reduction": 48,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g2_p1",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g2_p1.qasm",
+   "source": "QAOA MaxCut, p=1, random 5-node graph (edge probability 0.5, seed 302), gamma=0.39, beta=0.25",
+   "gates": 43,
+   "two_qubit_after_reduction": 10,
+   "depth_after_reduction": 22,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g2_p2",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g2_p2.qasm",
+   "source": "QAOA MaxCut, p=2, random 5-node graph (edge probability 0.5, seed 302), gamma=0.39, beta=0.25",
+   "gates": 77,
+   "two_qubit_after_reduction": 20,
+   "depth_after_reduction": 40,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g3_p1",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g3_p1.qasm",
+   "source": "QAOA MaxCut, p=1, random 5-node graph (edge probability 0.5, seed 303), gamma=0.39, beta=0.25",
+   "gates": 43,
+   "two_qubit_after_reduction": 10,
+   "depth_after_reduction": 28,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g3_p2",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g3_p2.qasm",
+   "source": "QAOA MaxCut, p=2, random 5-node graph (edge probability 0.5, seed 303), gamma=0.39, beta=0.25",
+   "gates": 77,
+   "two_qubit_after_reduction": 20,
+   "depth_after_reduction": 46,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g4_p1",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g4_p1.qasm",
+   "source": "QAOA MaxCut, p=1, random 5-node graph (edge probability 0.5, seed 304), gamma=0.39, beta=0.25",
+   "gates": 49,
+   "two_qubit_after_reduction": 12,
+   "depth_after_reduction": 28,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_g4_p2",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_g4_p2.qasm",
+   "source": "QAOA MaxCut, p=2, random 5-node graph (edge probability 0.5, seed 304), gamma=0.39, beta=0.25",
+   "gates": 90,
+   "two_qubit_after_reduction": 24,
+   "depth_after_reduction": 50,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s0",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s0.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=0)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s1",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s1.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=1)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s2",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s2.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=2)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s3",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s3.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=3)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s4",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s4.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=4)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s5",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s5.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=5)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s6",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s6.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=6)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s7",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s7.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=7)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s8",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s8.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=8)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "qv_5q_s9",
+   "group": "Quantum Volume",
+   "file": "odra5/qv/qv_5q_s9.qasm",
+   "source": "Qiskit QuantumVolume(5, depth=5, seed=9)",
+   "gates": 160,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 47,
+   "in_paper": true
+  },
+  {
+   "name": "adder_1bit_5q",
+   "group": "Other structured",
+   "file": "odra5/other/adder_1bit_5q.qasm",
+   "source": "1-bit full adder (CCX, CX)",
+   "gates": 56,
+   "two_qubit_after_reduction": 15,
+   "depth_after_reduction": 40,
+   "in_paper": true
+  },
+  {
+   "name": "heisenberg_ring_r2",
+   "group": "Hamiltonian simulation",
+   "file": "odra5/hamsim/heisenberg_ring_r2.qasm",
+   "source": "Heisenberg XXX model on a 5-ring, first-order Trotter, 2 steps, dt=0.1",
+   "gates": 232,
+   "two_qubit_after_reduction": 60,
+   "depth_after_reduction": 182,
+   "in_paper": true
+  },
+  {
+   "name": "ising_full_r2",
+   "group": "Hamiltonian simulation",
+   "file": "odra5/hamsim/ising_full_r2.qasm",
+   "source": "transverse-field Ising model with all-to-all ZZ couplings, first-order Trotter, 2 steps",
+   "gates": 141,
+   "two_qubit_after_reduction": 40,
+   "depth_after_reduction": 66,
+   "in_paper": true
+  },
+  {
+   "name": "heisenberg_ring_r4",
+   "group": "Hamiltonian simulation",
+   "file": "odra5/hamsim/heisenberg_ring_r4.qasm",
+   "source": "Heisenberg XXX model on a 5-ring, first-order Trotter, 4 steps, dt=0.1",
+   "gates": 462,
+   "two_qubit_after_reduction": 120,
+   "depth_after_reduction": 362,
+   "in_paper": true
+  },
+  {
+   "name": "ising_full_r4",
+   "group": "Hamiltonian simulation",
+   "file": "odra5/hamsim/ising_full_r4.qasm",
+   "source": "transverse-field Ising model with all-to-all ZZ couplings, first-order Trotter, 4 steps",
+   "gates": 275,
+   "two_qubit_after_reduction": 80,
+   "depth_after_reduction": 122,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_k5_p3",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_k5_p3.qasm",
+   "source": "QAOA MaxCut on the complete graph K5, p=3",
+   "gates": 208,
+   "two_qubit_after_reduction": 60,
+   "depth_after_reduction": 94,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_k5_p4",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_k5_p4.qasm",
+   "source": "QAOA MaxCut on the complete graph K5, p=4",
+   "gates": 275,
+   "two_qubit_after_reduction": 80,
+   "depth_after_reduction": 122,
+   "in_paper": true
+  },
+  {
+   "name": "qaoa_ring_p6",
+   "group": "QAOA MaxCut",
+   "file": "odra5/qaoa/qaoa_ring_p6.qasm",
+   "source": "QAOA MaxCut on the 5-cycle, p=6",
+   "gates": 246,
+   "two_qubit_after_reduction": 60,
+   "depth_after_reduction": 182,
+   "in_paper": true
+  },
+  {
+   "name": "vqe_su2_full_r3",
+   "group": "Other structured",
+   "file": "odra5/other/vqe_su2_full_r3.qasm",
+   "source": "Qiskit EfficientSU2(5, reps=3, entanglement='full'), fixed random parameters",
+   "gates": 124,
+   "two_qubit_after_reduction": 30,
+   "depth_after_reduction": 43,
+   "in_paper": true
+  },
+  {
+   "name": "vqe_su2_full_r6",
+   "group": "Other structured",
+   "file": "odra5/other/vqe_su2_full_r6.qasm",
+   "source": "Qiskit EfficientSU2(5, reps=6, entanglement='full'), fixed random parameters",
+   "gates": 238,
+   "two_qubit_after_reduction": 60,
+   "depth_after_reduction": 82,
+   "in_paper": true
+  },
+  {
+   "name": "grover_4q_it3",
+   "group": "Other structured",
+   "file": "odra5/other/grover_4q_it3.qasm",
+   "source": "Grover search on 4 qubits with an ancilla, 3 iterations",
+   "gates": 743,
+   "two_qubit_after_reduction": 216,
+   "depth_after_reduction": 597,
+   "in_paper": true
+  },
+  {
+   "name": "qft_adder_2b",
+   "group": "Other structured",
+   "file": "odra5/other/qft_adder_2b.qasm",
+   "source": "Qiskit DraperQFTAdder(2, kind='fixed') on the inputs 01 and 11",
+   "gates": 43,
+   "two_qubit_after_reduction": 10,
+   "depth_after_reduction": 32,
+   "in_paper": true
+  },
+  {
+   "name": "queko_d32",
+   "group": "Other structured",
+   "file": "odra5/other/queko_d32.qasm",
+   "source": "QUEKO (Tan and Cong) on the Odra5 graph, depth 32, densities (0.25, 0.3), seed 0; known zero-SWAP layout",
+   "gates": 64,
+   "two_qubit_after_reduction": 15,
+   "depth_after_reduction": 25,
+   "in_paper": true
+  }
+ ],
+ "tuning": [
+  {
+   "name": "tiny_s200",
+   "file": "tuning/tiny_s200.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=200)"
+  },
+  {
+   "name": "tiny_s201",
+   "file": "tuning/tiny_s201.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=201)"
+  },
+  {
+   "name": "tiny_s202",
+   "file": "tuning/tiny_s202.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=202)"
+  },
+  {
+   "name": "tiny_s203",
+   "file": "tuning/tiny_s203.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=203)"
+  },
+  {
+   "name": "tiny_s204",
+   "file": "tuning/tiny_s204.qasm",
+   "source": "random_circuit(n=5, num_gates=5, p_two_qubit=0.5, seed=204)"
+  },
+  {
+   "name": "small_s200",
+   "file": "tuning/small_s200.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=200)"
+  },
+  {
+   "name": "small_s201",
+   "file": "tuning/small_s201.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=201)"
+  },
+  {
+   "name": "small_s202",
+   "file": "tuning/small_s202.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=202)"
+  },
+  {
+   "name": "small_s203",
+   "file": "tuning/small_s203.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=203)"
+  },
+  {
+   "name": "small_s204",
+   "file": "tuning/small_s204.qasm",
+   "source": "random_circuit(n=5, num_gates=11, p_two_qubit=0.4, seed=204)"
+  },
+  {
+   "name": "medium_s200",
+   "file": "tuning/medium_s200.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=200)"
+  },
+  {
+   "name": "medium_s201",
+   "file": "tuning/medium_s201.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=201)"
+  },
+  {
+   "name": "medium_s202",
+   "file": "tuning/medium_s202.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=202)"
+  },
+  {
+   "name": "medium_s203",
+   "file": "tuning/medium_s203.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=203)"
+  },
+  {
+   "name": "medium_s204",
+   "file": "tuning/medium_s204.qasm",
+   "source": "random_circuit(n=5, num_gates=22, p_two_qubit=0.35, seed=204)"
+  },
+  {
+   "name": "heavy_s200",
+   "file": "tuning/heavy_s200.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=200)"
+  },
+  {
+   "name": "heavy_s201",
+   "file": "tuning/heavy_s201.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=201)"
+  },
+  {
+   "name": "heavy_s202",
+   "file": "tuning/heavy_s202.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=202)"
+  },
+  {
+   "name": "heavy_s203",
+   "file": "tuning/heavy_s203.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=203)"
+  },
+  {
+   "name": "heavy_s204",
+   "file": "tuning/heavy_s204.qasm",
+   "source": "random_circuit(n=5, num_gates=45, p_two_qubit=0.3, seed=204)"
+  },
+  {
+   "name": "dense_s200",
+   "file": "tuning/dense_s200.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=200)"
+  },
+  {
+   "name": "dense_s201",
+   "file": "tuning/dense_s201.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=201)"
+  },
+  {
+   "name": "dense_s202",
+   "file": "tuning/dense_s202.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=202)"
+  },
+  {
+   "name": "dense_s203",
+   "file": "tuning/dense_s203.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=203)"
+  },
+  {
+   "name": "dense_s204",
+   "file": "tuning/dense_s204.qasm",
+   "source": "random_circuit(n=5, num_gates=70, p_two_qubit=0.68, seed=204)"
+  }
+ ],
+ "stars": [
+  {
+   "N": 5,
+   "name": "N5_c0",
+   "file": "stars/N5/c0.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=0) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 26
+  },
+  {
+   "N": 5,
+   "name": "N5_c1",
+   "file": "stars/N5/c1.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=1) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 5,
+   "name": "N5_c2",
+   "file": "stars/N5/c2.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=2) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 21
+  },
+  {
+   "N": 5,
+   "name": "N5_c3",
+   "file": "stars/N5/c3.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=3) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 27
+  },
+  {
+   "N": 5,
+   "name": "N5_c4",
+   "file": "stars/N5/c4.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=4) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 24
+  },
+  {
+   "N": 5,
+   "name": "N5_c5",
+   "file": "stars/N5/c5.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=5) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 24
+  },
+  {
+   "N": 5,
+   "name": "N5_c6",
+   "file": "stars/N5/c6.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=6) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 5,
+   "name": "N5_c7",
+   "file": "stars/N5/c7.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=7) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 27
+  },
+  {
+   "N": 5,
+   "name": "N5_c8",
+   "file": "stars/N5/c8.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=8) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 30
+  },
+  {
+   "N": 5,
+   "name": "N5_c9",
+   "file": "stars/N5/c9.qasm",
+   "source": "random_circuit(n=5, num_gates=40, p_two_qubit=0.7, seed=9) on a star with hub 0 and leaves 1..4",
+   "two_qubit_after_reduction": 22
+  },
+  {
+   "N": 6,
+   "name": "N6_c0",
+   "file": "stars/N6/c0.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=0) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 23
+  },
+  {
+   "N": 6,
+   "name": "N6_c1",
+   "file": "stars/N6/c1.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=1) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 27
+  },
+  {
+   "N": 6,
+   "name": "N6_c2",
+   "file": "stars/N6/c2.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=2) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 18
+  },
+  {
+   "N": 6,
+   "name": "N6_c3",
+   "file": "stars/N6/c3.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=3) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 29
+  },
+  {
+   "N": 6,
+   "name": "N6_c4",
+   "file": "stars/N6/c4.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=4) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 6,
+   "name": "N6_c5",
+   "file": "stars/N6/c5.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=5) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 20
+  },
+  {
+   "N": 6,
+   "name": "N6_c6",
+   "file": "stars/N6/c6.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=6) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 6,
+   "name": "N6_c7",
+   "file": "stars/N6/c7.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=7) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 6,
+   "name": "N6_c8",
+   "file": "stars/N6/c8.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=8) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 31
+  },
+  {
+   "N": 6,
+   "name": "N6_c9",
+   "file": "stars/N6/c9.qasm",
+   "source": "random_circuit(n=6, num_gates=40, p_two_qubit=0.7, seed=9) on a star with hub 0 and leaves 1..5",
+   "two_qubit_after_reduction": 27
+  },
+  {
+   "N": 7,
+   "name": "N7_c0",
+   "file": "stars/N7/c0.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=0) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 23
+  },
+  {
+   "N": 7,
+   "name": "N7_c1",
+   "file": "stars/N7/c1.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=1) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 7,
+   "name": "N7_c2",
+   "file": "stars/N7/c2.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=2) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 19
+  },
+  {
+   "N": 7,
+   "name": "N7_c3",
+   "file": "stars/N7/c3.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=3) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 7,
+   "name": "N7_c4",
+   "file": "stars/N7/c4.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=4) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 30
+  },
+  {
+   "N": 7,
+   "name": "N7_c5",
+   "file": "stars/N7/c5.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=5) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 30
+  },
+  {
+   "N": 7,
+   "name": "N7_c6",
+   "file": "stars/N7/c6.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=6) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 7,
+   "name": "N7_c7",
+   "file": "stars/N7/c7.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=7) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 30
+  },
+  {
+   "N": 7,
+   "name": "N7_c8",
+   "file": "stars/N7/c8.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=8) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 7,
+   "name": "N7_c9",
+   "file": "stars/N7/c9.qasm",
+   "source": "random_circuit(n=7, num_gates=40, p_two_qubit=0.7, seed=9) on a star with hub 0 and leaves 1..6",
+   "two_qubit_after_reduction": 27
+  },
+  {
+   "N": 8,
+   "name": "N8_c0",
+   "file": "stars/N8/c0.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=0) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 8,
+   "name": "N8_c1",
+   "file": "stars/N8/c1.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=1) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 29
+  },
+  {
+   "N": 8,
+   "name": "N8_c2",
+   "file": "stars/N8/c2.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=2) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 22
+  },
+  {
+   "N": 8,
+   "name": "N8_c3",
+   "file": "stars/N8/c3.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=3) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 25
+  },
+  {
+   "N": 8,
+   "name": "N8_c4",
+   "file": "stars/N8/c4.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=4) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 31
+  },
+  {
+   "N": 8,
+   "name": "N8_c5",
+   "file": "stars/N8/c5.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=5) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 29
+  },
+  {
+   "N": 8,
+   "name": "N8_c6",
+   "file": "stars/N8/c6.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=6) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 26
+  },
+  {
+   "N": 8,
+   "name": "N8_c7",
+   "file": "stars/N8/c7.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=7) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 28
+  },
+  {
+   "N": 8,
+   "name": "N8_c8",
+   "file": "stars/N8/c8.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=8) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 30
+  },
+  {
+   "N": 8,
+   "name": "N8_c9",
+   "file": "stars/N8/c9.qasm",
+   "source": "random_circuit(n=8, num_gates=40, p_two_qubit=0.7, seed=9) on a star with hub 0 and leaves 1..7",
+   "two_qubit_after_reduction": 23
+  }
+ ]
+}

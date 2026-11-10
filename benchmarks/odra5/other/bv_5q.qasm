@@ -1,0 +1,26 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+gate r(param0,param1) q0 { u3(param0,param1 - pi/2,pi/2 - param1) q0; }
+qreg q[5];
+r(pi/2,pi/2) q[0];
+r(pi,0) q[0];
+r(pi/2,pi/2) q[1];
+r(pi,0) q[1];
+r(pi/2,pi/2) q[3];
+r(pi,0) q[3];
+r(pi,-pi) q[4];
+cz q[0],q[4];
+r(pi/2,pi/2) q[0];
+r(pi,0) q[0];
+r(-pi,-pi) q[4];
+r(pi,0) q[4];
+cz q[1],q[4];
+r(pi/2,pi/2) q[1];
+r(pi,0) q[1];
+r(-pi,-pi) q[4];
+r(pi,0) q[4];
+cz q[3],q[4];
+r(pi/2,pi/2) q[3];
+r(pi,0) q[3];
+r(pi/2,pi/2) q[4];
+r(pi,0) q[4];
